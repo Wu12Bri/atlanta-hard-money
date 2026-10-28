@@ -1,0 +1,248 @@
+window.MOGUL_LENDERS = {
+  "meta": {
+    "title": "Metro Atlanta / Georgia Hard Money & Private Money Lenders",
+    "verified_date": "2026-10-27",
+    "disclaimer": "Fields are taken from publicly available lender websites as of the verification date. Rates, LTVs, and terms change; always confirm directly with the lender. This is not lending, financial, or legal advice.",
+    "geography_focus": "Metro Atlanta and State of Georgia"
+  },
+  "lenders": [
+    {
+      "id": "georgia-private-lending",
+      "name": "Georgia Private Lending",
+      "website": "https://georgiapl.com/",
+      "hq_city": "Atlanta, GA",
+      "areas_served": "Greater Atlanta and surrounding areas",
+      "loan_types": [
+        "fix-and-flip",
+        "fix-to-rent (BRRRR)",
+        "bridge"
+      ],
+      "ltv_leverage": "Not published",
+      "terms": "6\u201312 months (published); origination 1\u20134%; rates listed 12\u201314% (subject to change)",
+      "min_credit_experience": "No minimum asset/income requirements; decisions based primarily on borrower experience and subject property",
+      "phone": "(404) 509-2259",
+      "email": "jason@georgiapl.com",
+      "notes": "Local Atlanta hard money; SFR and small multifamily; investment properties only. In-house local focus.",
+      "source_url": "https://georgiapl.com/faqs/",
+      "verified": "2026-10-27"
+    },
+    {
+      "id": "ahp-capital",
+      "name": "AHP Capital",
+      "website": "https://ahpcapital.net/",
+      "hq_city": "Decatur, GA",
+      "areas_served": "Metro Atlanta (exclusive local focus stated)",
+      "loan_types": [
+        "fix-and-flip",
+        "new construction",
+        "ADU",
+        "fix-and-keep",
+        "refinance / cash-out",
+        "commercial"
+      ],
+      "ltv_leverage": "Typical hard money up to ~75% ARV (fix-and-flip); cash-out refinance up to 70% of current value",
+      "terms": "Fix-and-flip: rates from ~9% (up to ~15% cited on product pages), terms 6\u201312 months; new construction typically ~1 year",
+      "min_credit_experience": "Not published as a hard minimum; terms vary with project and borrower experience",
+      "phone": "770-330-9404",
+      "email": "info@ahpcapital.net",
+      "notes": "Metro Atlanta lender for 25+ years; Decatur office. Claims ability to close some deals in as little as two days.",
+      "source_url": "https://ahpcapital.net/our-loan-products/",
+      "verified": "2026-10-27"
+    },
+    {
+      "id": "fairview-commercial-lending",
+      "name": "Fairview Commercial Lending",
+      "website": "https://www.fairviewlending.com/",
+      "hq_city": "Marietta, GA",
+      "areas_served": "Entire state of Georgia (emphasis on Atlanta metro, north GA, Savannah); also CO and FL",
+      "loan_types": [
+        "hard money / private money",
+        "bridge",
+        "residential investment",
+        "commercial"
+      ],
+      "ltv_leverage": "Up to 55% of property value (purchase based on purchase price)",
+      "terms": "Up to 10 years; closings typically 5\u201310 days; loans as small as ~$50k",
+      "min_credit_experience": "No minimum credit score; asset-based / no-doc style underwriting on collateral",
+      "phone": "866-634-1270",
+      "email": "Info@FairviewLending.com",
+      "notes": "Privately funded direct lender since 1975; states no upfront fees and no appraisal required (in-house underwriting). Marietta office: 3535 Roswell Road Ste 57.",
+      "source_url": "https://www.fairviewlending.com/georgia-hard-money-loans/",
+      "verified": "2026-10-27"
+    },
+    {
+      "id": "100pld",
+      "name": "100PLD (100Percent Lender Direct)",
+      "website": "https://100pld.com/",
+      "hq_city": "Douglasville, GA",
+      "areas_served": "Metro Atlanta and surrounding Georgia counties (Fulton, Cobb, DeKalb, Gwinnett, Douglas cited)",
+      "loan_types": [
+        "fix-and-flip",
+        "bridge",
+        "construction",
+        "rental / DSCR",
+        "multifamily"
+      ],
+      "ltv_leverage": "Advertises up to 100% of acquisition and renovation costs on fix-and-flip and construction (deal/ARV based)",
+      "terms": "Fix-and-flip and bridge typically 6\u201318 months; construction aligns with build timeline",
+      "min_credit_experience": "Works with experienced investors; not designed for first-time buyers/beginners (per FAQ)",
+      "phone": "678-331-7154",
+      "email": "team@100pld.com",
+      "notes": "Direct private lender positioning (no broker layer). CAUTION: primary website returned unavailable during live fetch on 2026-10-27; fields taken from indexed public page content (home/FAQ/contact). Re-verify before relying on terms.",
+      "source_url": "https://100pld.com/faq/",
+      "verified": "2026-10-27"
+    },
+    {
+      "id": "silliman-private-lending",
+      "name": "Silliman Private Lending",
+      "website": "https://sprivatelending.com/",
+      "hq_city": "Roswell, GA",
+      "areas_served": "Based in Atlanta/Roswell; states lending throughout the United States",
+      "loan_types": [
+        "fix-and-flip",
+        "bridge (rentals)",
+        "transactional funding",
+        "new construction",
+        "manufactured home"
+      ],
+      "ltv_leverage": "Qualifications list cites minimum/up to ~70% ARV",
+      "terms": "Fix-and-flip 6 or 12 months; rates from ~10%; origination from ~2%; transactional: 3-day term, 1% origination, 0% interest",
+      "min_credit_experience": "Prior flip or rental experience; reserves (~$30k depending on deal); strong comps and exit plan; $500 application fee may apply",
+      "phone": "404-806-1749",
+      "email": "Not published",
+      "notes": "Lends own funds; specializes in SFR flips roughly $100k\u2013$1M. Office: 900 Old Roswell Lakes Parkway Suite 230, Roswell, GA 30076.",
+      "source_url": "https://sprivatelending.com/loan-types/",
+      "verified": "2026-10-27"
+    },
+    {
+      "id": "atlanta-private-lending",
+      "name": "Atlanta Private Lending",
+      "website": "https://atlantaprivatelending.com/",
+      "hq_city": "Atlanta area, GA",
+      "areas_served": "Southeast United States (Atlanta-focused branding)",
+      "loan_types": [
+        "purchase/rehab (fix-and-flip)",
+        "refinance rehab",
+        "new construction",
+        "bridge / cash-out",
+        "DSCR rental"
+      ],
+      "ltv_leverage": "True hard money / rehab: up to 70% ARV; purchase up to 65% LTV; cash-out refinance 50\u201360% LTV",
+      "terms": "Hard money up to 12 months; rates starting ~12%; fees 2\u20134%; min loan often $100k (1st lien)",
+      "min_credit_experience": "No minimum credit score on hard money products; experience preferred but not required",
+      "phone": "(770) 354-1899",
+      "email": "jmelton@atlantaprivatelending.com",
+      "notes": "Also maintains rehabatl.com loan-products pages. Investment / non-owner-occupied only.",
+      "source_url": "https://atlantaprivatelending.com/true-hard-money/",
+      "verified": "2026-10-27"
+    },
+    {
+      "id": "mainspring-lending",
+      "name": "Mainspring Lending (Mainspring Capital)",
+      "website": "https://mainspringlending.com/",
+      "hq_city": "Atlanta, GA",
+      "areas_served": "Atlanta-based; areas beyond Atlanta not clearly limited on site",
+      "loan_types": [
+        "fix-and-flip",
+        "new construction",
+        "bridge",
+        "transactional",
+        "long-term rental DSCR",
+        "multifamily rental"
+      ],
+      "ltv_leverage": "Fix-and-flip / bridge: up to 90% LTC and up to 80% LTV; new construction: up to 85% LTC / 75% LTV",
+      "terms": "Fix-and-flip: 6, 12, or 24 months; bridge up to 12 months; origination from ~2%; close as little as 48 hours (claimed)",
+      "min_credit_experience": "620 credit score cited for fix-and-flip/bridge; no prior projects necessary for fix-and-flip; new construction requires prior successful projects",
+      "phone": "Not published on contact page",
+      "email": "Not published",
+      "notes": "PO Box: 650 Ponce de Leon Ave ste 300 #2135, Atlanta, GA 30308. Contact via website form.",
+      "source_url": "https://mainspringlending.com/loan-types/",
+      "verified": "2026-10-27"
+    },
+    {
+      "id": "peach-tree-capital",
+      "name": "Peach Tree Commercial Capital",
+      "website": "https://peachtreecap.com/",
+      "hq_city": "Marietta, GA",
+      "areas_served": "Marietta / Atlanta-area lender (statewide footprint not fully detailed on fix-and-flip page)",
+      "loan_types": [
+        "fix-and-flip",
+        "purchase",
+        "refinance",
+        "cash-out"
+      ],
+      "ltv_leverage": "Up to 92.5% LTC / 75% ARV (fix-and-flip program)",
+      "terms": "6, 9, or 12 months on tabulated program; page also references short-term 12\u201318 months; rates listed 9.50%; min loan $50k (1\u20134 units)",
+      "min_credit_experience": "FICO 660 typical; 640\u2013659 may require interest reserves; new and seasoned investors accepted",
+      "phone": "678-269-4020",
+      "email": "info@peachtreecap.com",
+      "notes": "Office: 2551 Roswell Road, Suite 525, Marietta, GA 30062. Interest only on draws; no prepayment penalty listed on program table.",
+      "source_url": "https://peachtreecap.com/fix-and-flip-loans/",
+      "verified": "2026-10-27"
+    },
+    {
+      "id": "kiavi",
+      "name": "Kiavi",
+      "website": "https://www.kiavi.com/",
+      "hq_city": "Pittsburgh, PA",
+      "areas_served": "Georgia included (lends in 49 states + DC)",
+      "loan_types": [
+        "fix-and-flip",
+        "bridge",
+        "rental",
+        "new construction"
+      ],
+      "ltv_leverage": "Up to 100% of purchase + 100% rehab, capped around 80% ARV / up to ~95\u2013100% LTC (product pages)",
+      "terms": "12, 18, or 24 months with interest-only options; loans from ~$100k to $5MM; rates advertised from 8.25%",
+      "min_credit_experience": "Not fully published on fix-and-flip overview; property-based pricing emphasized; no income verification claimed",
+      "phone": "1 (844) 415-4663",
+      "email": "Not published",
+      "notes": "National tech-enabled lender with in-house valuation/servicing. No application fee / no appraisal claims on fix-and-flip page. Confirm GA product availability at quote time.",
+      "source_url": "https://www.kiavi.com/loans/fix-and-flip",
+      "verified": "2026-10-27"
+    },
+    {
+      "id": "lima-one-capital",
+      "name": "Lima One Capital",
+      "website": "https://www.limaone.com/",
+      "hq_city": "Greenville, SC",
+      "areas_served": "Georgia statewide including Atlanta metro (Cobb, DeKalb, Douglas, etc.), Athens, Savannah, Gainesville, Macon",
+      "loan_types": [
+        "fix-and-flip (FixNFlip)",
+        "fix-to-rent",
+        "bridge plus",
+        "new construction / build-to-rent",
+        "rental / SFR / STR / portfolio"
+      ],
+      "ltv_leverage": "Not published on Georgia marketing pages reviewed",
+      "terms": "Not published as a single table on GA pages; product-specific \u2014 request quote",
+      "min_credit_experience": "Approvals consider investor credit and experience (exact minimums not published on GA pages)",
+      "phone": "(833) 315-5112",
+      "email": "hello@limaone.com",
+      "notes": "National private money lender with long Georgia history; does not lend in AK, ND, SD, or VT. Backed by MFA Financial (REIT) per site.",
+      "source_url": "https://www.limaone.com/georgia-hard-money-lender/",
+      "verified": "2026-10-27"
+    },
+    {
+      "id": "groundfloor-lending",
+      "name": "Groundfloor Lending",
+      "website": "https://lending.groundfloor.com/",
+      "hq_city": "Atlanta, GA",
+      "areas_served": "35 states for most products; new construction and DSCR in all 50 states (Georgia HQ; GA included in footprint)",
+      "loan_types": [
+        "fix-and-flip",
+        "bridge (up to 18 months)",
+        "DSCR rental",
+        "new construction"
+      ],
+      "ltv_leverage": "Not published as a single max on FAQ; funding based on property and ARV",
+      "terms": "Loans $75,000\u2013$3.5M; typically 6\u201318 months (DSCR 30-year fixed options); deferred OR monthly interest options",
+      "min_credit_experience": "Minimum credit score 640; no bankruptcies/foreclosures in recent lookback window; 18+ with property under contract",
+      "phone": "404-850-9224",
+      "email": "Not published",
+      "notes": "Atlanta-based. Application fee $495 and underwriting fee 1%\u20133.75% cited on FAQ; close as few as 7 business days claimed.",
+      "source_url": "https://lending.groundfloor.com/faq/",
+      "verified": "2026-10-27"
+    }
+  ]
+};
