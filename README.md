@@ -39,10 +39,10 @@ Then visit `http://127.0.0.1:8765/`.
 
 ## Data sources caveat
 
-- Fields come from **public lender websites** as of the `verified` dates in `lenders.json` (research pass: **2026-10-27**).
+- Fields come from **public lender websites** as of the `verified` dates in `lenders.json` (research pass: **2026-10-27**; refresh pass: **2026-10-29** — 9 of 11 rows re-verified on live pages; 100PLD index-only; Lima One not re-checked).
 - Missing numbers are labeled **Not published** — we do **not** invent rates or LTVs.
 - Terms change. Always confirm with the lender and do your own license/entity checks.
-- **100PLD**: the live site returned unavailable during fetch on 2026-10-27; those rows use indexed public page content and should be re-verified.
+- **100PLD**: still unresolved. 100pld.com returned HTTP 503 “Site Currently Unavailable” on 2026-10-27 and again on 2026-10-29; the row uses search-indexed copies of its home/FAQ/about/contact pages (consistent on 2026-10-29) and keeps its 2026-10-27 verified date until the live site can be checked.
 - This is **not** financial, lending, or legal advice and is **not** an endorsement of any lender.
 
 ## Next steps
