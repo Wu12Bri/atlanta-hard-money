@@ -1,10 +1,10 @@
 window.MOGUL_LENDERS = {
   "meta": {
     "title": "Metro Atlanta / Georgia Hard Money & Private Money Lenders",
-    "verified_date": "2026-10-29",
+    "verified_date": "2026-10-30",
     "disclaimer": "Fields are taken from publicly available lender websites as of the verification date. Rates, LTVs, and terms change; always confirm directly with the lender. This is not lending, financial, or legal advice.",
     "geography_focus": "Metro Atlanta and State of Georgia",
-    "last_refresh_note": "2026-10-29 refresh: 9 of 11 rows re-verified against live lender pages; 100PLD site still down (HTTP 503), so its row was only re-checked against search-indexed copies and keeps its 2026-10-27 date; Lima One not re-checked this pass."
+    "last_refresh_note": "2026-10-30 refresh: Lima One, Kiavi, and Georgia Private Lending re-verified against live pages (no rate/term changes; Lima One contact/NMLS details added). 100PLD re-checked and still offline (HTTP 503 on 2026-10-27, 2026-10-29, and 2026-10-30; the 2026-10-30 response carried an 'x-suspended-vhost' header) \u2014 row kept with its 2026-10-27 date and a visible warning. Other rows keep their 2026-10-29 verified dates."
   },
   "lenders": [
     {
@@ -25,7 +25,7 @@ window.MOGUL_LENDERS = {
       "email": "jason@georgiapl.com",
       "notes": "Local Atlanta hard money; SFR and small multifamily; investment properties only. In-house approval process. Office: 750 Hammond Dr Bldg. 5 Suite 300, Atlanta, GA 30328.",
       "source_url": "https://georgiapl.com/faqs/",
-      "verified": "2026-10-29"
+      "verified": "2026-10-30"
     },
     {
       "id": "ahp-capital",
@@ -89,9 +89,10 @@ window.MOGUL_LENDERS = {
       "min_credit_experience": "Works with experienced investors; not designed for first-time buyers/beginners (per FAQ)",
       "phone": "678-331-7154",
       "email": "team@100pld.com",
-      "notes": "Direct private lender positioning (no broker layer). Address listed: 7421 Douglas Blvd Unit N #418, Douglasville, GA 30135. CAUTION: 100pld.com returned HTTP 503 'Site Currently Unavailable' on live fetches on both 2026-10-27 and 2026-10-29; fields come from search-indexed copies of the home/FAQ/about/contact pages (re-checked 2026-10-29 and consistent). Not live-verified \u2014 confirm terms directly before relying on them.",
+      "notes": "Direct private lender positioning (no broker layer). Address listed: 7421 Douglas Blvd Unit N #418, Douglasville, GA 30135. CAUTION: 100pld.com returned HTTP 503 'Site Currently Unavailable' on live checks on 2026-10-27, 2026-10-29, and 2026-10-30; the 2026-10-30 response included an 'x-suspended-vhost' header, which indicates the web hosting account is suspended. Fields come from search-indexed copies of the home/FAQ/about/contact pages. Not live-verified \u2014 confirm the company is operating and confirm terms directly before relying on anything here.",
       "source_url": "https://100pld.com/faq/",
-      "verified": "2026-10-27"
+      "verified": "2026-10-27",
+      "status_flag": "Website offline on 3 checks (10/27, 10/29, 10/30) \u2014 not live-verified"
     },
     {
       "id": "silliman-private-lending",
@@ -200,7 +201,7 @@ window.MOGUL_LENDERS = {
       "email": "Not published",
       "notes": "National tech-enabled lender with in-house valuation/servicing. No application fee / no appraisal claims on fix-and-flip page. Confirm GA product availability at quote time.",
       "source_url": "https://www.kiavi.com/loans/fix-and-flip",
-      "verified": "2026-10-29"
+      "verified": "2026-10-30"
     },
     {
       "id": "lima-one-capital",
@@ -218,11 +219,11 @@ window.MOGUL_LENDERS = {
       "ltv_leverage": "Not published on Georgia marketing pages reviewed",
       "terms": "Not published as a single table on GA pages; product-specific \u2014 request quote",
       "min_credit_experience": "Approvals consider investor credit and experience (exact minimums not published on GA pages)",
-      "phone": "(833) 315-5112",
+      "phone": "(833) 315-5112 (GA page); main (800) 390-4212; broker sales (833) 315-4404",
       "email": "hello@limaone.com",
-      "notes": "National private money lender with long Georgia history; does not lend in AK, ND, SD, or VT. Backed by MFA Financial (REIT) per site.",
+      "notes": "National private money lender lending in Atlanta since 2010 per its Georgia page; NMLS #1324403; HQ 300 East McBee Ave, Suite 200, Greenville, SC 29601. Does not lend in AK, ND, SD, or VT. Backed by MFA Financial (REIT) per site. Publishes mortgage-broker and referral partner programs. LTV/terms not published on the GA page \u2014 request a quote.",
       "source_url": "https://www.limaone.com/georgia-hard-money-lender/",
-      "verified": "2026-10-27"
+      "verified": "2026-10-30"
     },
     {
       "id": "groundfloor-lending",

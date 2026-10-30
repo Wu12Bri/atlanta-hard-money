@@ -307,3 +307,14 @@ tr:hover td { background: #fcfcfb; }
   text-align: center;
   color: var(--muted);
 }
+
+/* Row-level warning (e.g. lender site offline) */
+.status-flag {
+  margin-top: .35rem;
+  font-size: .78rem;
+  color: var(--warn);
+  background: var(--warn-bg);
+  border-radius: 6px;
+  padding: .2rem .4rem;
+  display: inline-block;
+}

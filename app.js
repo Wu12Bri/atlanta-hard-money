@@ -122,7 +122,9 @@
           escapeHtml(l.name) +
           '</strong><div class="hq">' +
           escapeHtml(l.hq_city || "") +
-          "</div></td>" +
+          "</div>" +
+          (l.status_flag ? '<div class="status-flag">\u26a0 ' + escapeHtml(l.status_flag) + "</div>" : "") +
+          "</td>" +
           "<td>" +
           escapeHtml(l.areas_served || "Not published") +
           "</td>" +
