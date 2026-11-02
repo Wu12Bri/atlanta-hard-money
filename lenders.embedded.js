@@ -1,10 +1,10 @@
 window.MOGUL_LENDERS = {
   "meta": {
     "title": "Metro Atlanta / Georgia Hard Money & Private Money Lenders",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-02",
     "disclaimer": "Fields are taken from publicly available lender websites as of the verification date. Rates, LTVs, and terms change; always confirm directly with the lender. This is not lending, financial, or legal advice.",
     "geography_focus": "Metro Atlanta and State of Georgia",
-    "last_refresh_note": "2026-10-30 refresh: Lima One, Kiavi, and Georgia Private Lending re-verified against live pages (no rate/term changes; Lima One contact/NMLS details added). 100PLD re-checked and still offline (HTTP 503 on 2026-10-27, 2026-10-29, and 2026-10-30; the 2026-10-30 response carried an 'x-suspended-vhost' header) \u2014 row kept with its 2026-10-27 date and a visible warning. Other rows keep their 2026-10-29 verified dates."
+    "last_refresh_note": "2026-11-02 refresh: Silliman Private Lending and Mainspring Lending re-verified against live pages (no rate changes; Silliman's DSCR rental program and Mainspring's DSCR terms added). 100PLD re-checked and still offline (HTTP 503 with an 'x-suspended-vhost' header on 2026-11-02, fourth failed check) — row kept with its 2026-10-27 date and a visible warning. Other rows keep their 2026-10-29/10-30 verified dates."
   },
   "lenders": [
     {
@@ -19,7 +19,7 @@ window.MOGUL_LENDERS = {
         "bridge"
       ],
       "ltv_leverage": "Not published",
-      "terms": "6\u201312 months (published); origination 1\u20134%; rates listed 12\u201314% (subject to change)",
+      "terms": "6–12 months (published); origination 1–4%; rates listed 12–14% (subject to change)",
       "min_credit_experience": "No minimum asset/income requirements; decisions based primarily on borrower experience and subject property",
       "phone": "(404) 509-2259",
       "email": "jason@georgiapl.com",
@@ -63,7 +63,7 @@ window.MOGUL_LENDERS = {
         "commercial"
       ],
       "ltv_leverage": "Up to 55% of property value (purchase based on purchase price)",
-      "terms": "Up to 10 years; closings typically 5\u201310 days; loans as small as ~$50k",
+      "terms": "Up to 10 years; closings typically 5–10 days; loans as small as ~$50k",
       "min_credit_experience": "No minimum credit score; asset-based / no-doc style underwriting on collateral",
       "phone": "866-634-1270",
       "email": "Info@FairviewLending.com",
@@ -85,14 +85,14 @@ window.MOGUL_LENDERS = {
         "multifamily"
       ],
       "ltv_leverage": "Advertises up to 100% of acquisition and renovation costs on fix-and-flip and construction (deal/ARV based)",
-      "terms": "Fix-and-flip and bridge typically 6\u201318 months; construction aligns with build timeline",
+      "terms": "Fix-and-flip and bridge typically 6–18 months; construction aligns with build timeline",
       "min_credit_experience": "Works with experienced investors; not designed for first-time buyers/beginners (per FAQ)",
       "phone": "678-331-7154",
       "email": "team@100pld.com",
-      "notes": "Direct private lender positioning (no broker layer). Address listed: 7421 Douglas Blvd Unit N #418, Douglasville, GA 30135. CAUTION: 100pld.com returned HTTP 503 'Site Currently Unavailable' on live checks on 2026-10-27, 2026-10-29, and 2026-10-30; the 2026-10-30 response included an 'x-suspended-vhost' header, which indicates the web hosting account is suspended. Fields come from search-indexed copies of the home/FAQ/about/contact pages. Not live-verified \u2014 confirm the company is operating and confirm terms directly before relying on anything here.",
+      "notes": "Direct private lender positioning (no broker layer). Address listed: 7421 Douglas Blvd Unit N #418, Douglasville, GA 30135. CAUTION: 100pld.com returned HTTP 503 'Site Currently Unavailable' on live checks on 2026-10-27, 2026-10-29, 2026-10-30, and 2026-11-02; the 2026-10-30 and 2026-11-02 responses included an 'x-suspended-vhost' header, which indicates the web hosting account is suspended. Fields come from search-indexed copies of the home/FAQ/about/contact pages. Not live-verified — confirm the company is operating and confirm terms directly before relying on anything here.",
       "source_url": "https://100pld.com/faq/",
       "verified": "2026-10-27",
-      "status_flag": "Website offline on 3 checks (10/27, 10/29, 10/30) \u2014 not live-verified"
+      "status_flag": "Website offline on 4 checks (10/27, 10/29, 10/30, 11/2) — not live-verified"
     },
     {
       "id": "silliman-private-lending",
@@ -105,16 +105,17 @@ window.MOGUL_LENDERS = {
         "bridge (rentals)",
         "transactional funding",
         "new construction",
-        "manufactured home"
+        "manufactured home",
+        "rental / DSCR"
       ],
       "ltv_leverage": "Qualifications list cites minimum/up to ~70% ARV",
       "terms": "Fix-and-flip 6 or 12 months; rates as low as 10%; origination as low as 2% ($2,500 minimum origination fee); extensions at 1% per month; transactional: 3-day term, 1% origination, 0% interest",
       "min_credit_experience": "Prior flip or rental experience; reserves (~$30k depending on deal); strong comps and exit plan; $500 application fee may apply",
       "phone": "404-806-1749",
       "email": "Not published",
-      "notes": "Lends own funds; specializes in SFR flips roughly $100k\u2013$1M. Office: 900 Old Roswell Lakes Parkway Suite 230, Roswell, GA 30076.",
+      "notes": "Lends own funds; specializes in SFR flips roughly $100k–$1M. DSCR rental program (published 2026-11-02 check): 1–4 units up to 80% LTV purchase / rate-and-term and up to 75% LTV cash-out, 30-year fixed or 10-year interest-only options, short-term rentals qualify; 5–9 unit loans $350k–$2M with 680 minimum credit. Fix-and-flip page lists close in as little as 1 week. Office: 900 Old Roswell Lakes Parkway Suite 230, Roswell, GA 30076.",
       "source_url": "https://sprivatelending.com/loan-types/",
-      "verified": "2026-10-29"
+      "verified": "2026-11-02"
     },
     {
       "id": "atlanta-private-lending",
@@ -129,8 +130,8 @@ window.MOGUL_LENDERS = {
         "bridge / cash-out",
         "DSCR rental"
       ],
-      "ltv_leverage": "True hard money / rehab: up to 70% ARV; purchase up to 65% LTV; cash-out refinance 50\u201360% LTV",
-      "terms": "Hard money up to 12 months; rates starting ~12%; fees 2\u20134%; min loan often $100k (1st lien)",
+      "ltv_leverage": "True hard money / rehab: up to 70% ARV; purchase up to 65% LTV; cash-out refinance 50–60% LTV",
+      "terms": "Hard money up to 12 months; rates starting ~12%; fees 2–4%; min loan often $100k (1st lien)",
       "min_credit_experience": "No minimum credit score on hard money products; experience preferred but not required",
       "phone": "(770) 354-1899",
       "email": "jmelton@atlantaprivatelending.com",
@@ -153,13 +154,13 @@ window.MOGUL_LENDERS = {
         "multifamily rental"
       ],
       "ltv_leverage": "Fix-and-flip / bridge: up to 90% LTC and up to 80% LTV; new construction: up to 85% LTC / 75% LTV",
-      "terms": "Fix-and-flip: loans $50k\u2013$5M, 6, 12, or 24 months; bridge up to 12 months, interest as low as 11%; origination as low as 2%; close in as little as 48 hours (claimed)",
+      "terms": "Fix-and-flip: loans $50k–$5M, 6, 12, or 24 months; bridge up to 12 months, interest as low as 11%; origination as low as 2%; close in as little as 48 hours (claimed)",
       "min_credit_experience": "620 credit score cited for fix-and-flip/bridge; no prior projects necessary for fix-and-flip; new construction requires prior successful projects",
       "phone": "Not published on contact page",
       "email": "Not published",
-      "notes": "PO Box: 650 Ponce de Leon Ave ste 300 #2135, Atlanta, GA 30308. Contact via website form.",
+      "notes": "Long-term rental DSCR (per loan-types page): $55k–$1.5M, 30-year term, 620 minimum credit, minimum DSCR 1.10 (1.20 if credit under 720), up to 80% LTV with 700+ score; STRs eligible. Multifamily 5–9 units $250k–$2M. PO Box: 650 Ponce de Leon Ave ste 300 #2135, Atlanta, GA 30308. Contact via website form.",
       "source_url": "https://mainspringlending.com/loan-types/",
-      "verified": "2026-10-29"
+      "verified": "2026-11-02"
     },
     {
       "id": "peach-tree-capital",
@@ -174,8 +175,8 @@ window.MOGUL_LENDERS = {
         "cash-out"
       ],
       "ltv_leverage": "Up to 92.5% LTC / 75% ARV (fix-and-flip program)",
-      "terms": "6, 9, or 12 months on tabulated program (narrative text also says 12\u201318 months); rate listed 9.50%; min loan $50K (1\u20134 units) / $250K (5+ / mixed use); max $2MM (1\u20134) / $3MM (5+)",
-      "min_credit_experience": "FICO 660 typical; 640\u2013659 may require interest reserves; new and seasoned investors accepted",
+      "terms": "6, 9, or 12 months on tabulated program (narrative text also says 12–18 months); rate listed 9.50%; min loan $50K (1–4 units) / $250K (5+ / mixed use); max $2MM (1–4) / $3MM (5+)",
+      "min_credit_experience": "FICO 660 typical; 640–659 may require interest reserves; new and seasoned investors accepted",
       "phone": "678-269-4020",
       "email": "info@peachtreecap.com",
       "notes": "Office: 2551 Roswell Road, Suite 525, Marietta, GA 30062. Narrative says up to 95% of purchase + 100% of renovation, capped at 75% ARV. Interest only on draws; no prepayment penalty listed on program table. Publishes a broker/partner program page.",
@@ -217,11 +218,11 @@ window.MOGUL_LENDERS = {
         "rental / SFR / STR / portfolio"
       ],
       "ltv_leverage": "Not published on Georgia marketing pages reviewed",
-      "terms": "Not published as a single table on GA pages; product-specific \u2014 request quote",
+      "terms": "Not published as a single table on GA pages; product-specific — request quote",
       "min_credit_experience": "Approvals consider investor credit and experience (exact minimums not published on GA pages)",
       "phone": "(833) 315-5112 (GA page); main (800) 390-4212; broker sales (833) 315-4404",
       "email": "hello@limaone.com",
-      "notes": "National private money lender lending in Atlanta since 2010 per its Georgia page; NMLS #1324403; HQ 300 East McBee Ave, Suite 200, Greenville, SC 29601. Does not lend in AK, ND, SD, or VT. Backed by MFA Financial (REIT) per site. Publishes mortgage-broker and referral partner programs. LTV/terms not published on the GA page \u2014 request a quote.",
+      "notes": "National private money lender lending in Atlanta since 2010 per its Georgia page; NMLS #1324403; HQ 300 East McBee Ave, Suite 200, Greenville, SC 29601. Does not lend in AK, ND, SD, or VT. Backed by MFA Financial (REIT) per site. Publishes mortgage-broker and referral partner programs. LTV/terms not published on the GA page — request a quote.",
       "source_url": "https://www.limaone.com/georgia-hard-money-lender/",
       "verified": "2026-10-30"
     },
@@ -238,11 +239,11 @@ window.MOGUL_LENDERS = {
         "new construction"
       ],
       "ltv_leverage": "Not published as a single max on FAQ; funding based on property and ARV",
-      "terms": "Loans $75,000\u2013$3.5M; typically 6\u201318 months (DSCR 30-year fixed options); rates from ~9.25% (fix-and-flip) and 5.875% (DSCR) per FAQ; deferred OR monthly interest options",
+      "terms": "Loans $75,000–$3.5M; typically 6–18 months (DSCR 30-year fixed options); rates from ~9.25% (fix-and-flip) and 5.875% (DSCR) per FAQ; deferred OR monthly interest options",
       "min_credit_experience": "Minimum credit score 640; no bankruptcies/foreclosures in recent lookback window; 18+ with property under contract",
       "phone": "404-850-9224",
       "email": "Not published",
-      "notes": "Atlanta-based. FAQ cites $495 application fee, underwriting fee 1%\u20133.75%, $1,250 closing costs; no prepayment penalty after first 3 months (3-month minimum interest). Close in as few as 7 business days (most 7\u201314) claimed.",
+      "notes": "Atlanta-based. FAQ cites $495 application fee, underwriting fee 1%–3.75%, $1,250 closing costs; no prepayment penalty after first 3 months (3-month minimum interest). Close in as few as 7 business days (most 7–14) claimed.",
       "source_url": "https://lending.groundfloor.com/faq/",
       "verified": "2026-10-29"
     }
