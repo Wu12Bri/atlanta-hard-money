@@ -39,10 +39,10 @@ Then visit `http://127.0.0.1:8765/`.
 
 ## Data sources caveat
 
-- Fields come from **public lender websites** as of the `verified` dates in `lenders.json` (research pass: **2026-10-27**; refresh passes: **2026-10-29** — 9 of 11 rows re-verified; **2026-10-30** — Lima One, Kiavi, Georgia Private Lending re-verified, 100PLD re-checked; **2026-11-02** — Silliman and Mainspring re-verified with DSCR details added, 100PLD re-checked).
+- Fields come from **public lender websites** as of the `verified` dates in `lenders.json` (research pass: **2026-10-27**; refresh passes: **2026-10-29** — 9 of 11 rows re-verified; **2026-10-30** — Lima One, Kiavi, Georgia Private Lending re-verified, 100PLD re-checked; **2026-11-02** — Silliman and Mainspring re-verified with DSCR details added, 100PLD re-checked; **2026-11-03** — AHP, Fairview, Atlanta Private Lending, Peach Tree, Groundfloor re-verified, 100PLD re-checked).
 - Missing numbers are labeled **Not published** — we do **not** invent rates or LTVs.
 - Terms change. Always confirm with the lender and do your own license/entity checks.
-- **100PLD**: still unresolved. 100pld.com returned HTTP 503 “Site Currently Unavailable” on 2026-10-27, 2026-10-29, 2026-10-30, and 2026-11-02 (the 10-30 and 11-02 responses carried an `x-suspended-vhost` header). The row uses search-indexed copies of its pages, keeps its 2026-10-27 verified date, and shows a visible `status_flag` warning in the table.
+- **100PLD**: still unresolved. 100pld.com returned HTTP 503 “Site Currently Unavailable” on 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, and 2026-11-03 (the 10-30, 11-02, and 11-03 responses carried an `x-suspended-vhost` header). The row uses search-indexed copies of its pages, keeps its 2026-10-27 verified date, and shows a visible `status_flag` warning in the table.
 - This is **not** financial, lending, or legal advice and is **not** an endorsement of any lender.
 
 ## Next steps
