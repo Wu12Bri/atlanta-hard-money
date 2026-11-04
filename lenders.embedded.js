@@ -1,10 +1,10 @@
 window.MOGUL_LENDERS = {
   "meta": {
     "title": "Metro Atlanta / Georgia Hard Money & Private Money Lenders",
-    "verified_date": "2026-11-03",
+    "verified_date": "2026-11-04",
     "disclaimer": "Fields are taken from publicly available lender websites as of the verification date. Rates, LTVs, and terms change; always confirm directly with the lender. This is not lending, financial, or legal advice.",
     "geography_focus": "Metro Atlanta and State of Georgia",
-    "last_refresh_note": "2026-11-03 refresh: AHP Capital, Fairview Commercial Lending, Atlanta Private Lending, Peach Tree Commercial Capital, and Groundfloor Lending re-verified against live pages. Atlanta Private Lending: true hard money rates now 'contact for quote' (fix-and-flip still from 12%); rental, bridge, and new construction program terms added. Groundfloor, Peach Tree, Fairview: eligibility/collateral details added; no rate changes. AHP: no changes. 100PLD re-checked and still offline (HTTP 503 with 'x-suspended-vhost' header on 2026-11-03, fifth failed check) \u2014 row kept with its 2026-10-27 date and a visible warning."
+    "last_refresh_note": "2026-11-04 refresh: Kiavi and Lima One Capital re-verified against live pages. Kiavi: no rate/term changes (rates as low as 8.25%, $100K\u2013$5M, up to 100% LTC / 80% ARV, 12/18/24-month terms); HQ corrected to the San Francisco address in the site footer; noted Kiavi is now 'a Figure company' and that DSCR/rental loans are originated by Figure Lending LLC effective 9/1/2026. Lima One: no rate/term changes; multifamily bridge added to loan types and Irvine, CA office noted. Georgia Private Lending could not be re-checked (georgiapl.com served a bot-verification challenge) \u2014 row unchanged and keeps its 2026-10-30 date. 100PLD re-checked and still offline (HTTP 503 with 'x-suspended-vhost' header on 2026-11-04, sixth failed check) \u2014 row kept, now marked 'site offline since Oct 27 \u2014 not currently verifiable'."
   },
   "lenders": [
     {
@@ -89,10 +89,10 @@ window.MOGUL_LENDERS = {
       "min_credit_experience": "Works with experienced investors; not designed for first-time buyers/beginners (per FAQ)",
       "phone": "678-331-7154",
       "email": "team@100pld.com",
-      "notes": "Direct private lender positioning (no broker layer). Address listed: 7421 Douglas Blvd Unit N #418, Douglasville, GA 30135. CAUTION: 100pld.com returned HTTP 503 'Site Currently Unavailable' on live checks on 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, and 2026-11-03; the 2026-10-30, 2026-11-02, and 2026-11-03 responses included an 'x-suspended-vhost' header, which indicates the web hosting account is suspended. Fields come from search-indexed copies of the home/FAQ/about/contact pages. Not live-verified \u2014 confirm the company is operating and confirm terms directly before relying on anything here.",
+      "notes": "Direct private lender positioning (no broker layer). Address listed: 7421 Douglas Blvd Unit N #418, Douglasville, GA 30135. CAUTION: 100pld.com returned HTTP 503 'Site Currently Unavailable' on live checks on 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, and 2026-11-04; the 2026-10-30 through 2026-11-04 responses included an 'x-suspended-vhost' header, which indicates the web hosting account is suspended. Fields come from search-indexed copies of the home/FAQ/about/contact pages. Not live-verified \u2014 confirm the company is operating and confirm terms directly before relying on anything here.",
       "source_url": "https://100pld.com/faq/",
       "verified": "2026-10-27",
-      "status_flag": "Website offline / hosting suspended on 5 checks (10/27, 10/29, 10/30, 11/2, 11/3) \u2014 not live-verified"
+      "status_flag": "Site offline since Oct 27, 2026 \u2014 not currently verifiable. 100pld.com returned HTTP 503 (hosting suspended) on 6 checks: 10/27, 10/29, 10/30, 11/2, 11/3, 11/4. Details below are from older search-indexed copies."
     },
     {
       "id": "silliman-private-lending",
@@ -188,8 +188,8 @@ window.MOGUL_LENDERS = {
       "id": "kiavi",
       "name": "Kiavi",
       "website": "https://www.kiavi.com/",
-      "hq_city": "Pittsburgh, PA",
-      "areas_served": "Georgia included (lends in 49 states + DC)",
+      "hq_city": "San Francisco, CA (575 Market St, Suite 1600, per kiavi.com footer)",
+      "areas_served": "Georgia included (kiavi.com footer lists GA among the states plus DC where Kiavi Funding, LLC originates bridge loans)",
       "loan_types": [
         "fix-and-flip",
         "bridge",
@@ -201,9 +201,9 @@ window.MOGUL_LENDERS = {
       "min_credit_experience": "Not fully published on fix-and-flip overview; property-based pricing emphasized; no income verification claimed",
       "phone": "1 (844) 415-4663",
       "email": "Not published",
-      "notes": "National tech-enabled lender with in-house valuation/servicing. No application fee / no appraisal claims on fix-and-flip page. Confirm GA product availability at quote time.",
+      "notes": "National tech-enabled lender with in-house valuation/servicing. No application fee / no appraisal / no income verification claims on fix-and-flip page. Now branded 'Kiavi, a Figure company': per the kiavi.com footer, Kiavi Funding LLC (NMLS #1125207) is a subsidiary of Figure Technology Solutions, Inc., and all DSCR and rental loans are originated and funded by Figure Lending LLC dba Figure (NMLS 1717824, Charlotte, NC) effective 9/1/2026. Confirm GA product availability at quote time.",
       "source_url": "https://www.kiavi.com/loans/fix-and-flip",
-      "verified": "2026-10-30"
+      "verified": "2026-11-04"
     },
     {
       "id": "lima-one-capital",
@@ -215,6 +215,7 @@ window.MOGUL_LENDERS = {
         "fix-and-flip (FixNFlip)",
         "fix-to-rent",
         "bridge plus",
+        "multifamily bridge",
         "new construction / build-to-rent",
         "rental / SFR / STR / portfolio"
       ],
@@ -223,9 +224,9 @@ window.MOGUL_LENDERS = {
       "min_credit_experience": "Approvals consider investor credit and experience (exact minimums not published on GA pages)",
       "phone": "(833) 315-5112 (GA page); main (800) 390-4212; broker sales (833) 315-4404",
       "email": "hello@limaone.com",
-      "notes": "National private money lender lending in Atlanta since 2010 per its Georgia page; NMLS #1324403; HQ 300 East McBee Ave, Suite 200, Greenville, SC 29601. Does not lend in AK, ND, SD, or VT. Backed by MFA Financial (REIT) per site. Publishes mortgage-broker and referral partner programs. LTV/terms not published on the GA page \u2014 request a quote.",
+      "notes": "National private money lender lending in Atlanta since 2010 per its Georgia page; NMLS #1324403; HQ 300 East McBee Ave, Suite 200, Greenville, SC 29601 (site also lists an office at 18301 Von Karman Ave, Suite 700, Irvine, CA 92612). Does not lend in AK, ND, SD, or VT. Backed by MFA Financial (REIT) per site. Publishes mortgage-broker and referral partner programs. LTV/terms not published on the GA page \u2014 request a quote.",
       "source_url": "https://www.limaone.com/georgia-hard-money-lender/",
-      "verified": "2026-10-30"
+      "verified": "2026-11-04"
     },
     {
       "id": "groundfloor-lending",
