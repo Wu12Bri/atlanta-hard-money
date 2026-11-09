@@ -1,10 +1,10 @@
 window.MOGUL_LENDERS = {
   "meta": {
     "title": "Metro Atlanta / Georgia Hard Money & Private Money Lenders",
-    "verified_date": "2026-11-05",
+    "verified_date": "2026-11-09",
     "disclaimer": "Fields are taken from publicly available lender websites as of the verification date. Rates, LTVs, and terms change; always confirm directly with the lender. This is not lending, financial, or legal advice.",
     "geography_focus": "Metro Atlanta and State of Georgia",
-    "last_refresh_note": "2026-11-05 refresh: Silliman Private Lending re-verified against its live DSCR and fix-and-flip pages; no headline rate changes (as low as 10% interest, as low as 2% origination); added its published 2–8 unit mixed-use DSCR and foreign national programs, the 5–9 unit LTV limits, and the metro Atlanta cities its site lists. Mainspring Lending re-verified with no changes. Georgia Private Lending again served a bot-verification challenge, so its row keeps its 2026-10-30 date. 100PLD still offline (HTTP 503 with 'x-suspended-vhost' header, seventh failed check)."
+    "last_refresh_note": "2026-11-09 refresh: Georgia Private Lending's FAQ page loaded normally for the first time since 10/30 and was re-verified with no changes (term 6–12 months, origination 1–4%, rate 12–14%). Groundfloor Lending re-verified against its FAQ (no changes); added homepage figures that differ from the FAQ (rates from 9%, loans to $2.5M+, $50k minimum property value, 2.75–4% underwriting). Kiavi re-verified (fix-and-flip from 8.25%, up to 100% LTC / 80% ARV); added its DSCR 'as low as 6.375%' banner. Lima One Georgia page re-verified with no changes. 100PLD still offline (HTTP 503 with 'x-suspended-vhost' header, ninth failed check)."
   },
   "lenders": [
     {
@@ -25,7 +25,7 @@ window.MOGUL_LENDERS = {
       "email": "jason@georgiapl.com",
       "notes": "Local Atlanta hard money; SFR and small multifamily; investment properties only. In-house approval process. Office: 750 Hammond Dr Bldg. 5 Suite 300, Atlanta, GA 30328.",
       "source_url": "https://georgiapl.com/faqs/",
-      "verified": "2026-10-30"
+      "verified": "2026-11-09"
     },
     {
       "id": "ahp-capital",
@@ -89,10 +89,10 @@ window.MOGUL_LENDERS = {
       "min_credit_experience": "Works with experienced investors; not designed for first-time buyers/beginners (per FAQ)",
       "phone": "678-331-7154",
       "email": "team@100pld.com",
-      "notes": "Direct private lender positioning (no broker layer). Address listed: 7421 Douglas Blvd Unit N #418, Douglasville, GA 30135. CAUTION: 100pld.com returned HTTP 503 'Site Currently Unavailable' on live checks on 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, and 2026-11-05; the 2026-10-30 through 2026-11-05 responses included an 'x-suspended-vhost' header, which indicates the web hosting account is suspended. Fields come from search-indexed copies of the home/FAQ/about/contact pages. Not live-verified — confirm the company is operating and confirm terms directly before relying on anything here.",
+      "notes": "Direct private lender positioning (no broker layer). Address listed: 7421 Douglas Blvd Unit N #418, Douglasville, GA 30135. CAUTION: 100pld.com returned HTTP 503 'Site Currently Unavailable' on live checks on 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, and 2026-11-09; the 2026-10-30 through 2026-11-09 responses included an 'x-suspended-vhost' header, which indicates the web hosting account is suspended. Fields come from search-indexed copies of the home/FAQ/about/contact pages. Not live-verified — confirm the company is operating and confirm terms directly before relying on anything here.",
       "source_url": "https://100pld.com/faq/",
       "verified": "2026-10-27",
-      "status_flag": "Site offline since Oct 27, 2026 — not currently verifiable. 100pld.com returned HTTP 503 (hosting suspended) on 7 checks: 10/27, 10/29, 10/30, 11/2, 11/3, 11/4, 11/5. Details below are from older search-indexed copies."
+      "status_flag": "Site offline since Oct 27, 2026 — not currently verifiable. 100pld.com returned HTTP 503 (hosting suspended) on 9 checks: 10/27, 10/29, 10/30, 11/2, 11/3, 11/4, 11/5, 11/6, 11/9. Details below are from older search-indexed copies."
     },
     {
       "id": "silliman-private-lending",
@@ -203,9 +203,9 @@ window.MOGUL_LENDERS = {
       "min_credit_experience": "Not fully published on fix-and-flip overview; property-based pricing emphasized; no income verification claimed",
       "phone": "1 (844) 415-4663",
       "email": "Not published",
-      "notes": "National tech-enabled lender with in-house valuation/servicing. No application fee / no appraisal / no income verification claims on fix-and-flip page. Now branded 'Kiavi, a Figure company': per the kiavi.com footer, Kiavi Funding LLC (NMLS #1125207) is a subsidiary of Figure Technology Solutions, Inc., and all DSCR and rental loans are originated and funded by Figure Lending LLC dba Figure (NMLS 1717824, Charlotte, NC) effective 9/1/2026. Confirm GA product availability at quote time.",
+      "notes": "National tech-enabled lender with in-house valuation/servicing. No application fee / no appraisal / no income verification claims on fix-and-flip page. Now branded 'Kiavi, a Figure company': per the kiavi.com footer, Kiavi Funding LLC (NMLS #1125207) is a subsidiary of Figure Technology Solutions, Inc., and all DSCR and rental loans are originated and funded by Figure Lending LLC dba Figure (NMLS 1717824, Charlotte, NC) effective 9/1/2026. Fix-and-flip page banner (2026-11-09 check) says DSCR loans are now as low as 6.375% (those loans are made by Figure Lending). Confirm GA product availability at quote time.",
       "source_url": "https://www.kiavi.com/loans/fix-and-flip",
-      "verified": "2026-11-04"
+      "verified": "2026-11-09"
     },
     {
       "id": "lima-one-capital",
@@ -228,7 +228,7 @@ window.MOGUL_LENDERS = {
       "email": "hello@limaone.com",
       "notes": "National private money lender lending in Atlanta since 2010 per its Georgia page; NMLS #1324403; HQ 300 East McBee Ave, Suite 200, Greenville, SC 29601 (site also lists an office at 18301 Von Karman Ave, Suite 700, Irvine, CA 92612). Does not lend in AK, ND, SD, or VT. Backed by MFA Financial (REIT) per site. Publishes mortgage-broker and referral partner programs. LTV/terms not published on the GA page — request a quote.",
       "source_url": "https://www.limaone.com/georgia-hard-money-lender/",
-      "verified": "2026-11-04"
+      "verified": "2026-11-09"
     },
     {
       "id": "groundfloor-lending",
@@ -247,9 +247,9 @@ window.MOGUL_LENDERS = {
       "min_credit_experience": "Minimum credit score 640; 18+ with property under contract; no felonies in last 5 years; no bankruptcies/foreclosures in a recent lookback window (FAQ states both 12 and 24 months in different sections)",
       "phone": "404-850-9224",
       "email": "Not published",
-      "notes": "Atlanta-based; finances 1–4 unit residential properties. FAQ cites $495 application fee, underwriting fee 1%–3.75%, $1,250 closing costs; points and fees can be rolled into the loan. No prepayment penalty after first 3 months (3-month minimum interest). True deferred payment option (higher rates may apply vs monthly pay). Draws funded in ~3–5 business days. Close in as few as 7 business days (most 7–14) claimed.",
+      "notes": "Atlanta-based; finances 1–4 unit residential properties. FAQ cites $495 application fee, underwriting fee 1%–3.75%, $1,250 closing costs; points and fees can be rolled into the loan. No prepayment penalty after first 3 months (3-month minimum interest). True deferred payment option (higher rates may apply vs monthly pay). Draws funded in ~3–5 business days. Close in as few as 7 business days (most 7–14) claimed. Lending homepage (2026-11-09 check) separately advertises rates \"starting at 9%\", loan sizes \"$75,000 to $2.5 Million+\", a $50,000 minimum property value, and no tax returns or bank statements required; its fine print also says underwriting is generally 2.75%–4% of principal, which differs from the FAQ's 1%–3.75% — confirm fees in your term sheet.",
       "source_url": "https://lending.groundfloor.com/faq/",
-      "verified": "2026-11-03"
+      "verified": "2026-11-09"
     }
   ]
 };
