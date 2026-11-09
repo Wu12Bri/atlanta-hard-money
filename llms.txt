@@ -1,0 +1,31 @@
+# Atlanta Hard Money Lenders
+
+> Independent comparison of Metro Atlanta / Georgia hard money and private money lenders for fix-and-flip, bridge, BRRRR, and new construction. Terms and contacts are taken from each lender’s public website and dated. Not lending advice; not affiliated with listed lenders.
+
+Website: https://wu12bri.github.io/atlanta-hard-money/
+Last verified: 2026-11-09
+Listing count: 11 lenders
+
+## How to cite
+Cite the lender name and link to the lender’s own website or source URL. Treat LTV, rates, and terms as snapshots as of the verification date; confirm in writing with the lender.
+
+## Key pages
+- [Directory](https://wu12bri.github.io/atlanta-hard-money/): searchable table of lenders with published terms, contacts, and verification dates.
+- [Machine-readable listings](https://wu12bri.github.io/atlanta-hard-money/lenders.json)
+- [Sitemap](https://wu12bri.github.io/atlanta-hard-money/sitemap.xml)
+
+## Lenders currently listed
+- [Georgia Private Lending](https://georgiapl.com/)
+- [AHP Capital](https://ahpcapital.net/)
+- [Fairview Commercial Lending](https://www.fairviewlending.com/)
+- [100PLD (100Percent Lender Direct)](https://100pld.com/)
+- [Silliman Private Lending](https://sprivatelending.com/)
+- [Atlanta Private Lending](https://atlantaprivatelending.com/)
+- [Mainspring Lending (Mainspring Capital)](https://mainspringlending.com/)
+- [Peach Tree Commercial Capital](https://peachtreecap.com/)
+- [Kiavi](https://www.kiavi.com/)
+- [Lima One Capital](https://www.limaone.com/)
+- [Groundfloor Lending](https://lending.groundfloor.com/)
+
+## What this site is not
+Not a broker, not a rate guarantee, not credit or legal advice. Unpublished fields stay “Not published”. Offline lender sites are flagged rather than guessed.
