@@ -1,10 +1,10 @@
 {
   "meta": {
     "title": "Metro Atlanta / Georgia Hard Money & Private Money Lenders",
-    "verified_date": "2026-11-09",
+    "verified_date": "2026-11-10",
     "disclaimer": "Fields are taken from publicly available lender websites as of the verification date. Rates, LTVs, and terms change; always confirm directly with the lender. This is not lending, financial, or legal advice.",
     "geography_focus": "Metro Atlanta and State of Georgia",
-    "last_refresh_note": "2026-11-09 refresh: Georgia Private Lending's FAQ page loaded normally for the first time since 10/30 and was re-verified with no changes (term 6–12 months, origination 1–4%, rate 12–14%). Groundfloor Lending re-verified against its FAQ (no changes); added homepage figures that differ from the FAQ (rates from 9%, loans to $2.5M+, $50k minimum property value, 2.75–4% underwriting). Kiavi re-verified (fix-and-flip from 8.25%, up to 100% LTC / 80% ARV); added its DSCR 'as low as 6.375%' banner. Lima One Georgia page re-verified with no changes. 100PLD still offline (HTTP 503 with 'x-suspended-vhost' header, ninth failed check)."
+    "last_refresh_note": "2026-11-10 refresh: 100PLD is back online at a new domain, 100pldcap.com (100pld.com now redirects there after nine failed checks from 10/27 to 11/09); the row was re-verified from the new site (same phone, email and Douglasville address) with published fix-and-flip terms (up to 90% of purchase and 100% of rehab, 75% max after-repair LTV, 12-month term) and its beta 100% purchase-plus-rehab Premier Plus program. AHP Capital re-verified with no changes (from 9%, up to 75% ARV, close rescue deals in two days)."
   },
   "lenders": [
     {
@@ -48,7 +48,7 @@
       "email": "info@ahpcapital.net",
       "notes": "Metro Atlanta lender for 25+ years; homepage advertises \"Zero money down payments. 9% interest-only.\" Claims ability to close many rescue deals in just two days. Office: 755 Commerce Drive, Suite 803, Decatur, GA 30030.",
       "source_url": "https://ahpcapital.net/our-loan-products/",
-      "verified": "2026-11-03"
+      "verified": "2026-11-10"
     },
     {
       "id": "fairview-commercial-lending",
@@ -74,9 +74,9 @@
     {
       "id": "100pld",
       "name": "100PLD (100Percent Lender Direct)",
-      "website": "https://100pld.com/",
+      "website": "https://100pldcap.com/",
       "hq_city": "Douglasville, GA",
-      "areas_served": "Metro Atlanta and surrounding Georgia counties (Fulton, Cobb, DeKalb, Gwinnett, Douglas cited)",
+      "areas_served": "Metro Atlanta and Georgia (Atlanta, Alpharetta and Marietta case studies on its site); new site also markets itself as nationwide real estate financing",
       "loan_types": [
         "fix-and-flip",
         "bridge",
@@ -84,15 +84,15 @@
         "rental / DSCR",
         "multifamily"
       ],
-      "ltv_leverage": "Advertises up to 100% of acquisition and renovation costs on fix-and-flip and construction (deal/ARV based)",
-      "terms": "Fix-and-flip and bridge typically 6–18 months; construction aligns with build timeline",
-      "min_credit_experience": "Works with experienced investors; not designed for first-time buyers/beginners (per FAQ)",
+      "ltv_leverage": "Fix-and-flip: up to 90% of purchase and 100% of rehab (LTC), up to 75% after-repair LTV (special requirements between 70% and 75%). Separate \"100% Fix & Flip Financing (Premier Plus)\" program advertises up to 100% of purchase plus rehab combined (rehab budget cannot exceed purchase price), $100,000 to $1,250,000, ARV leverage 65–75% by experience tier with 650+ FICO; that program is labeled beta and subject to review",
+      "terms": "Fix-and-flip: 12 months (18–24 months only for expansion, addition, conversion or ADU projects, with a pricing adjustment); interest charged on disbursed balance. Premier Plus: 9-month term with a three-month extension option. Rates not published on the pages reviewed",
+      "min_credit_experience": "Premier Plus tiers reference 650+ FICO; fix-and-flip borrower must be an LLC or corporation with at least 51% of the entity guaranteeing (full recourse); US citizens, green card holders, and foreign nationals (per product box)",
       "phone": "678-331-7154",
       "email": "team@100pld.com",
-      "notes": "Direct private lender positioning (no broker layer). Address listed: 7421 Douglas Blvd Unit N #418, Douglasville, GA 30135. CAUTION: 100pld.com returned HTTP 503 'Site Currently Unavailable' on live checks on 2026-10-27, 2026-10-29, 2026-10-30, 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, and 2026-11-09; the 2026-10-30 through 2026-11-09 responses included an 'x-suspended-vhost' header, which indicates the web hosting account is suspended. Fields come from search-indexed copies of the home/FAQ/about/contact pages. Not live-verified — confirm the company is operating and confirm terms directly before relying on anything here.",
-      "source_url": "https://100pld.com/faq/",
-      "verified": "2026-10-27",
-      "status_flag": "Site offline since Oct 27, 2026 — not currently verifiable. 100pld.com returned HTTP 503 (hosting suspended) on 9 checks: 10/27, 10/29, 10/30, 11/2, 11/3, 11/4, 11/5, 11/6, 11/9. Details below are from older search-indexed copies."
+      "notes": "Direct private lender positioning. Moved from 100pld.com to 100pldcap.com: the old domain returned HTTP 503 (hosting suspended) on nine checks from 2026-10-27 to 2026-11-09, and on 2026-11-10 it redirects to 100pldcap.com. The new site lists the same phone (678-331-7154), email (team@100pld.com) and address (7421 Douglas Blvd Unit N #418, Douglasville, GA 30135). Program details come from the fix-and-flip tearsheet and Premier Plus product page on the new site; they are informational, not an offer, and subject to underwriting.",
+      "source_url": "https://100pldcap.com/loans/fix-and-flip-loans",
+      "verified": "2026-11-10",
+      "status_flag": "New website: 100pldcap.com (old 100pld.com was offline Oct 27 to Nov 9 and now redirects here). Details re-verified 2026-11-10 from the new site."
     },
     {
       "id": "silliman-private-lending",
