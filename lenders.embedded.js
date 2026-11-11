@@ -1,10 +1,10 @@
 window.MOGUL_LENDERS = {
   "meta": {
     "title": "Metro Atlanta / Georgia Hard Money & Private Money Lenders",
-    "verified_date": "2026-11-10",
+    "verified_date": "2026-11-11",
     "disclaimer": "Fields are taken from publicly available lender websites as of the verification date. Rates, LTVs, and terms change; always confirm directly with the lender. This is not lending, financial, or legal advice.",
     "geography_focus": "Metro Atlanta and State of Georgia",
-    "last_refresh_note": "2026-11-10 refresh: 100PLD is back online at a new domain, 100pldcap.com (100pld.com now redirects there after nine failed checks from 10/27 to 11/09); the row was re-verified from the new site (same phone, email and Douglasville address) with published fix-and-flip terms (up to 90% of purchase and 100% of rehab, 75% max after-repair LTV, 12-month term) and its beta 100% purchase-plus-rehab Premier Plus program. AHP Capital re-verified with no changes (from 9%, up to 75% ARV, close rescue deals in two days)."
+    "last_refresh_note": "2026-11-11 refresh: Fairview Commercial Lending, Atlanta Private Lending and Peach Tree Commercial Capital re-verified against their live program pages with no changes (Fairview up to 55% LTV, up to 10 years, 5-10 days to fund; Atlanta Private Lending true hard money up to 65% LTV, rehab from 12%, rental from 6.5%; Peach Tree up to 92.5% LTC / 75% ARV at 9.50%). Earlier: 2026-11-10 refresh: 100PLD is back online at a new domain, 100pldcap.com (100pld.com now redirects there after nine failed checks from 10/27 to 11/09); the row was re-verified from the new site (same phone, email and Douglasville address) with published fix-and-flip terms (up to 90% of purchase and 100% of rehab, 75% max after-repair LTV, 12-month term) and its beta 100% purchase-plus-rehab Premier Plus program. AHP Capital re-verified with no changes (from 9%, up to 75% ARV, close rescue deals in two days)."
   },
   "lenders": [
     {
@@ -69,7 +69,7 @@ window.MOGUL_LENDERS = {
       "email": "Info@FairviewLending.com",
       "notes": "Privately funded direct lender since 1975; states no upfront fees and no appraisal required (in-house underwriting). Collateral: residential investment properties (no primary residences) and commercial (office, retail, light industrial, multifamily, mixed use). Marietta office: 3535 Roswell Road Ste 57, Marietta, GA 30062; Atlanta office line (404) 634-1270. Also lists a Colorado office (Evergreen, CO).",
       "source_url": "https://www.fairviewlending.com/georgia-hard-money-loans/",
-      "verified": "2026-11-03"
+      "verified": "2026-11-11"
     },
     {
       "id": "100pld",
@@ -140,7 +140,7 @@ window.MOGUL_LENDERS = {
       "email": "jmelton@atlantaprivatelending.com",
       "notes": "Also maintains rehabatl.com / hardmoneyatlanta.com pages. Investment / non-owner-occupied only (does not lend to owner occupants). Close in as little as 10 days (claimed); ARV appraisal by lender-approved appraiser, paid by borrower. Rental program: DSCR down to 1.0, no-prepay-penalty options available. Lends to investors throughout the Southeast United States.",
       "source_url": "https://atlantaprivatelending.com/true-hard-money/",
-      "verified": "2026-11-03"
+      "verified": "2026-11-11"
     },
     {
       "id": "mainspring-lending",
@@ -184,7 +184,7 @@ window.MOGUL_LENDERS = {
       "email": "info@peachtreecap.com",
       "notes": "Office: 2551 Roswell Road, Suite 525, Marietta, GA 30062. Narrative says up to 95% of purchase + 100% of renovation, capped at 75% ARV. Collateral: SFR, 2–4 units, multifamily 5+; guarantors may be US citizens, permanent residents, or foreign nationals; min property value $75K preferred (lower case by case). Interest only on draws; no prepayment penalty listed on program table. Publishes a broker/partner program page.",
       "source_url": "https://peachtreecap.com/fix-and-flip-loans/",
-      "verified": "2026-11-03"
+      "verified": "2026-11-11"
     },
     {
       "id": "kiavi",
