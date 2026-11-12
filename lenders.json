@@ -1,10 +1,10 @@
 {
   "meta": {
     "title": "Metro Atlanta / Georgia Hard Money & Private Money Lenders",
-    "verified_date": "2026-11-11",
+    "verified_date": "2026-11-12",
     "disclaimer": "Fields are taken from publicly available lender websites as of the verification date. Rates, LTVs, and terms change; always confirm directly with the lender. This is not lending, financial, or legal advice.",
     "geography_focus": "Metro Atlanta and State of Georgia",
-    "last_refresh_note": "2026-11-11 refresh: Fairview Commercial Lending, Atlanta Private Lending and Peach Tree Commercial Capital re-verified against their live program pages with no changes (Fairview up to 55% LTV, up to 10 years, 5-10 days to fund; Atlanta Private Lending true hard money up to 65% LTV, rehab from 12%, rental from 6.5%; Peach Tree up to 92.5% LTC / 75% ARV at 9.50%). Earlier: 2026-11-10 refresh: 100PLD is back online at a new domain, 100pldcap.com (100pld.com now redirects there after nine failed checks from 10/27 to 11/09); the row was re-verified from the new site (same phone, email and Douglasville address) with published fix-and-flip terms (up to 90% of purchase and 100% of rehab, 75% max after-repair LTV, 12-month term) and its beta 100% purchase-plus-rehab Premier Plus program. AHP Capital re-verified with no changes (from 9%, up to 75% ARV, close rescue deals in two days)."
+    "last_refresh_note": "2026-11-12 refresh: Silliman Private Lending and Mainspring Lending re-verified against their live DSCR and loan-type pages with no rate or leverage changes; added Mainspring's published 100% rehab funding, interest-only option and new-construction loan range ($100k–$5M, 12/24 months), and Silliman's 5–9 unit vacancy allowance. Earlier: 2026-11-11 refresh: Fairview Commercial Lending, Atlanta Private Lending and Peach Tree Commercial Capital re-verified against their live program pages with no changes (Fairview up to 55% LTV, up to 10 years, 5-10 days to fund; Atlanta Private Lending true hard money up to 65% LTV, rehab from 12%, rental from 6.5%; Peach Tree up to 92.5% LTC / 75% ARV at 9.50%). Earlier: 2026-11-10 refresh: 100PLD is back online at a new domain, 100pldcap.com (100pld.com now redirects there after nine failed checks from 10/27 to 11/09); the row was re-verified from the new site (same phone, email and Douglasville address) with published fix-and-flip terms (up to 90% of purchase and 100% of rehab, 75% max after-repair LTV, 12-month term) and its beta 100% purchase-plus-rehab Premier Plus program. AHP Capital re-verified with no changes (from 9%, up to 75% ARV, close rescue deals in two days)."
   },
   "lenders": [
     {
@@ -115,9 +115,9 @@
       "min_credit_experience": "Prior flip or rental experience; reserves (~$30k depending on deal); strong comps and exit plan; $500 application fee may apply",
       "phone": "404-806-1749",
       "email": "Not published",
-      "notes": "Lends own funds; specializes in SFR flips roughly $100k–$1M. DSCR rental program (published 2026-11-02 check): 1–4 units up to 80% LTV purchase / rate-and-term and up to 75% LTV cash-out, 30-year fixed or 10-year interest-only options, short-term rentals qualify; 5–9 unit loans $350k–$2M (up to 75% LTV purchase / 70% cash-out, 680 minimum credit); 2–8 unit mixed-use $400k–$2M (700 minimum credit, up to 75% LTV purchase / 65% cash-out, max 49% commercial square footage); foreign national program up to 75% LTV purchase / 65% cash-out with no credit needed (2026-11-05 check). Fix-and-flip page lists close in as little as 1 week. Office: 900 Old Roswell Lakes Parkway Suite 230, Roswell, GA 30076.",
+      "notes": "Lends own funds; specializes in SFR flips roughly $100k–$1M. DSCR rental program (published 2026-11-02 check): 1–4 units up to 80% LTV purchase / rate-and-term and up to 75% LTV cash-out, 30-year fixed or 10-year interest-only options, short-term rentals qualify; 5–9 unit loans $350k–$2M (up to 75% LTV purchase / 70% cash-out, 680 minimum credit, 2 vacant units allowed using market rents); 2–8 unit mixed-use $400k–$2M (700 minimum credit, up to 75% LTV purchase / 65% cash-out, max 49% commercial square footage); foreign national program up to 75% LTV purchase / 65% cash-out with no credit needed (2026-11-05 check). Fix-and-flip page lists close in as little as 1 week. Office: 900 Old Roswell Lakes Parkway Suite 230, Roswell, GA 30076.",
       "source_url": "https://sprivatelending.com/dscr-loans/",
-      "verified": "2026-11-05"
+      "verified": "2026-11-12"
     },
     {
       "id": "atlanta-private-lending",
@@ -157,13 +157,13 @@
         "multifamily rental"
       ],
       "ltv_leverage": "Fix-and-flip / bridge: up to 90% LTC and up to 80% LTV; new construction: up to 85% LTC / 75% LTV",
-      "terms": "Fix-and-flip: loans $50k–$5M, 6, 12, or 24 months; bridge up to 12 months, interest as low as 11%; origination as low as 2%; close in as little as 48 hours (claimed)",
+      "terms": "Fix-and-flip: loans $50k–$5M, 6, 12, or 24 months; bridge up to 12 months, interest as low as 11%; origination as low as 2%; interest-only; 100% rehab funding on fix-and-flip; close in as little as 48 hours (claimed). New construction: $100k–$5M, 12 or 24 months",
       "min_credit_experience": "620 credit score cited for fix-and-flip/bridge; no prior projects necessary for fix-and-flip; new construction requires prior successful projects",
       "phone": "Not published on contact page",
       "email": "Not published",
       "notes": "Long-term rental DSCR (per loan-types page): $55k–$1.5M, 30-year term, 620 minimum credit, minimum DSCR 1.10 (1.20 if credit under 720), up to 80% LTV with 700+ score; STRs eligible. Multifamily 5–9 units $250k–$2M. PO Box: 650 Ponce de Leon Ave ste 300 #2135, Atlanta, GA 30308. Contact via website form.",
       "source_url": "https://mainspringlending.com/loan-types/",
-      "verified": "2026-11-05"
+      "verified": "2026-11-12"
     },
     {
       "id": "peach-tree-capital",
