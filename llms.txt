@@ -6,6 +6,8 @@ Website: https://wu12bri.github.io/atlanta-hard-money/
 Last verified: 2026-11-13
 Listing count: 11 lenders
 
+The full comparison table is rendered in the page’s static HTML (no JavaScript needed) and mirrored in lenders.json.
+
 ## How to cite
 Cite the lender name and link to the lender’s own website or source URL. Treat LTV, rates, and terms as snapshots as of the verification date; confirm in writing with the lender.
 

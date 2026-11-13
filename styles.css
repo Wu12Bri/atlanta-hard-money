@@ -318,3 +318,19 @@ tr:hover td { background: #fcfcfb; }
   padding: .2rem .4rem;
   display: inline-block;
 }
+
+/* 2026-11-13 QA: stacked cards instead of a squeezed 900px table on phones/tablets */
+@media (max-width: 1439px) {
+  .table-wrap { overflow: visible; background: transparent; border: 0; box-shadow: none; }
+  #directory table { min-width: 0; }
+  #directory thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #directory tbody, #directory tr, #directory td { display: block; width: 100%; box-sizing: border-box; }
+  #directory tbody tr { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); margin: 0 0 1rem; padding: .4rem 0; }
+  #directory tbody td { border-bottom: 0; padding: .4rem 1rem; }
+  #directory tbody td:not(:first-child)::before { display: block; font-size: .7rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin-bottom: .1rem; }
+  #directory tbody td:nth-child(2)::before{content:"Areas"}#directory tbody td:nth-child(3)::before{content:"Loan types"}#directory tbody td:nth-child(4)::before{content:"LTV / leverage"}#directory tbody td:nth-child(5)::before{content:"Terms"}#directory tbody td:nth-child(6)::before{content:"Contact"}#directory tbody td:nth-child(7)::before{content:"Source"}#directory tbody td:nth-child(8)::before{content:"Verified"}
+  #directory tbody td.empty::before { content: none; }
+  .contact a { white-space: normal; word-break: break-word; }
+}
+@media (min-width: 760px) and (max-width: 1439px) { #directory tbody { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; } #directory tbody tr { margin: 0; } #directory tbody tr:has(td.empty) { grid-column: 1 / -1; } }
+@media (min-width: 1440px) { #directory.wrap { width: min(1400px, calc(100% - 2rem)); } table { min-width: 0; } }
