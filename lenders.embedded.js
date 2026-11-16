@@ -1,10 +1,10 @@
 window.MOGUL_LENDERS = {
   "meta": {
     "title": "Metro Atlanta / Georgia Hard Money & Private Money Lenders",
-    "verified_date": "2026-11-13",
+    "verified_date": "2026-11-16",
     "disclaimer": "Fields are taken from publicly available lender websites as of the verification date. Rates, LTVs, and terms change; always confirm directly with the lender. This is not lending, financial, or legal advice.",
     "geography_focus": "Metro Atlanta and State of Georgia",
-    "last_refresh_note": "2026-11-13 refresh: Georgia Private Lending (6–12 months, 1–4% origination, 12–14%), Kiavi (from 8.25%, up to 100% LTC / 80% ARV, $100K–$5M) and Groundfloor Lending (640 min credit, $75K–$3.5M, from ~9.25% fix-and-flip / 5.875% DSCR) re-verified with no changes. 100PLD's fix-and-flip product is now branded Diamond Fix & Flip, and its page states the 90% purchase / 100% rehab / 75% ARV maximums are for a 660+ FICO, five-flip reference profile; the row now says so. Earlier: 2026-11-12 refresh: Silliman Private Lending and Mainspring Lending re-verified against their live DSCR and loan-type pages with no rate or leverage changes; added Mainspring's published 100% rehab funding, interest-only option and new-construction loan range ($100k–$5M, 12/24 months), and Silliman's 5–9 unit vacancy allowance. Earlier: 2026-11-11 refresh: Fairview Commercial Lending, Atlanta Private Lending and Peach Tree Commercial Capital re-verified against their live program pages with no changes (Fairview up to 55% LTV, up to 10 years, 5-10 days to fund; Atlanta Private Lending true hard money up to 65% LTV, rehab from 12%, rental from 6.5%; Peach Tree up to 92.5% LTC / 75% ARV at 9.50%). Earlier: 2026-11-10 refresh: 100PLD is back online at a new domain, 100pldcap.com (100pld.com now redirects there after nine failed checks from 10/27 to 11/09); the row was re-verified from the new site (same phone, email and Douglasville address) with published fix-and-flip terms (up to 90% of purchase and 100% of rehab, 75% max after-repair LTV, 12-month term) and its beta 100% purchase-plus-rehab Premier Plus program. AHP Capital re-verified with no changes (from 9%, up to 75% ARV, close rescue deals in two days)."
+    "last_refresh_note": "2026-11-16 refresh: AHP Capital (from 9%, up to 75% ARV, cash-out up to 70% of current value, rescue deals closed in two days) and Lima One Capital (NMLS #1324403, Greenville SC HQ, lending in Atlanta since 2010, does not lend in AK/ND/SD/VT) re-verified against their live pages with no changes. Earlier: 2026-11-13 refresh: Georgia Private Lending (6–12 months, 1–4% origination, 12–14%), Kiavi (from 8.25%, up to 100% LTC / 80% ARV, $100K–$5M) and Groundfloor Lending (640 min credit, $75K–$3.5M, from ~9.25% fix-and-flip / 5.875% DSCR) re-verified with no changes. 100PLD's fix-and-flip product is now branded Diamond Fix & Flip, and its page states the 90% purchase / 100% rehab / 75% ARV maximums are for a 660+ FICO, five-flip reference profile; the row now says so. Earlier: 2026-11-12 refresh: Silliman Private Lending and Mainspring Lending re-verified against their live DSCR and loan-type pages with no rate or leverage changes; added Mainspring's published 100% rehab funding, interest-only option and new-construction loan range ($100k–$5M, 12/24 months), and Silliman's 5–9 unit vacancy allowance. Earlier: 2026-11-11 refresh: Fairview Commercial Lending, Atlanta Private Lending and Peach Tree Commercial Capital re-verified against their live program pages with no changes (Fairview up to 55% LTV, up to 10 years, 5-10 days to fund; Atlanta Private Lending true hard money up to 65% LTV, rehab from 12%, rental from 6.5%; Peach Tree up to 92.5% LTC / 75% ARV at 9.50%). Earlier: 2026-11-10 refresh: 100PLD is back online at a new domain, 100pldcap.com (100pld.com now redirects there after nine failed checks from 10/27 to 11/09); the row was re-verified from the new site (same phone, email and Douglasville address) with published fix-and-flip terms (up to 90% of purchase and 100% of rehab, 75% max after-repair LTV, 12-month term) and its beta 100% purchase-plus-rehab Premier Plus program. AHP Capital re-verified with no changes (from 9%, up to 75% ARV, close rescue deals in two days)."
   },
   "lenders": [
     {
@@ -48,7 +48,7 @@ window.MOGUL_LENDERS = {
       "email": "info@ahpcapital.net",
       "notes": "Metro Atlanta lender for 25+ years; homepage advertises \"Zero money down payments. 9% interest-only.\" Claims ability to close many rescue deals in just two days. Office: 755 Commerce Drive, Suite 803, Decatur, GA 30030.",
       "source_url": "https://ahpcapital.net/our-loan-products/",
-      "verified": "2026-11-10"
+      "verified": "2026-11-16"
     },
     {
       "id": "fairview-commercial-lending",
@@ -228,7 +228,7 @@ window.MOGUL_LENDERS = {
       "email": "hello@limaone.com",
       "notes": "National private money lender lending in Atlanta since 2010 per its Georgia page; NMLS #1324403; HQ 300 East McBee Ave, Suite 200, Greenville, SC 29601 (site also lists an office at 18301 Von Karman Ave, Suite 700, Irvine, CA 92612). Does not lend in AK, ND, SD, or VT. Backed by MFA Financial (REIT) per site. Publishes mortgage-broker and referral partner programs. LTV/terms not published on the GA page — request a quote.",
       "source_url": "https://www.limaone.com/georgia-hard-money-lender/",
-      "verified": "2026-11-09"
+      "verified": "2026-11-16"
     },
     {
       "id": "groundfloor-lending",
